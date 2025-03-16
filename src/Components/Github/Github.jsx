@@ -17,7 +17,7 @@ function Github() {
     <>
     <div className='text-center m-4 bg-gray-600 text-white p-4 text-3xl'>Github followers: {data.followers}
      
-    <h1 className='bg-slate-300 font-serif text-neutral-800'>{data.bio}</h1>
+    <h1 className='bg-slate-300 font-serif text-neutral-800'> {data.bio}</h1>
     <img className='rounded-full' src={data.avatar_url} alt="Git picture" width={300} />
     <p className='text-red-500'>//Data fetched from GithubAPI </p>
     </div>
